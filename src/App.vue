@@ -58,6 +58,24 @@ export default {
   name: "App",
   data: function () {
     var catalog = [
+        {
+        name: "OCBC 360 (credit sal + $500ccSpd + $+500MAB)(>=mid 2024)",
+        editable: false,
+        denom: [
+          { amt: 75000, itr: 3.8 },
+          { amt: 25000, itr: 7 },
+          { amt: 0, itr: 0.05 },
+        ],
+      },
+        {
+        name: "OCBC 360 (credit sal + $500ccSpd)(>=mid 2024)",
+        editable: false,
+        denom: [
+          { amt: 75000, itr: 2.6 },
+          { amt: 25000, itr: 4.6 },
+          { amt: 0, itr: 0.05 },
+        ],
+      },
        {
         name: "UOB One ($500ccSpd + credit sal >=)(>=May 2024)",
         editable: false,
